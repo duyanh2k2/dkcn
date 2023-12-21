@@ -1,0 +1,19 @@
+.footer {
+  &-container {
+    max-width: 1043px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+  }
+  &-col {
+    display: flex;
+    flex-direction: column;
+  }
+  &-logo {
+    &-img {
+      max-width: 123px;
+    }
+  }
+}

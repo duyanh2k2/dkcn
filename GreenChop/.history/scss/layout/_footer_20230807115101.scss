@@ -1,0 +1,27 @@
+.footer {
+  padding-bottom: 30px;
+  &-container {
+    max-width: 1043px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  &-col {
+    row-gap: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  &-logo {
+    row-gap: 26px;
+    &-img {
+      max-width: 123px;
+    }
+  }
+  &-support-item,
+  &-contact-item {
+    display: flex;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../parts/variable";
+@import "../parts/base";
+@import "../parts/reset";
+
+@import "../layout/header";
+@import "../layout/section-hero";
+@import "../layout/section-quality";
+@import "../layout/section-product";
+.section-product {
+  margin-bottom: 40px;
+}
+@import "../layout/section-news";

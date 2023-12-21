@@ -1,0 +1,44 @@
+.footer {
+  padding: 66px 0p 33px 0px;
+  background-color: $green-100;
+  &-container {
+    max-width: 1043px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  &-col {
+    row-gap: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+  &-logo {
+    row-gap: 26px;
+    &-img {
+      max-width: 123px;
+    }
+  }
+  &-support-item,
+  &-contact-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 10px;
+  }
+  &-active,
+  &-heading {
+    font-size: 1.7rem;
+    color: $green-800;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    &-container {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+}

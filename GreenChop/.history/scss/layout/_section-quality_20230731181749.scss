@@ -1,0 +1,17 @@
+.section-quality {
+  &-container {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+  }
+  &-header {
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 24px;
+    font-size: 32rem;
+    line-height: calc(42 / 32);
+  }
+  &-desc {
+  }
+}

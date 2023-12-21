@@ -1,0 +1,3 @@
+const openMenu = () => {
+  let headerController;
+};

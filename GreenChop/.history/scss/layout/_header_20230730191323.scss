@@ -1,0 +1,22 @@
+.header {
+  &-top {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 19px auto 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-controller {
+    display: flex;
+    align-items: center;
+  }
+  &-menu {
+    display: flex;
+    &-item-link {
+      color: $text-color;
+    }
+  }
+  &-icons {
+    display: flex;
+  }
+}

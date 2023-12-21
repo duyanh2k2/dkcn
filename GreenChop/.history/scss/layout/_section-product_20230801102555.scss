@@ -1,0 +1,54 @@
+.section-product{
+    &-container{
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    &-header{
+        margin-bottom: 164px;
+    }
+    &-heading{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: calc(42 / 32);
+    }
+    &-list{
+        max-width: 975px;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 210px 83px;
+    }
+    &-item{
+        max-width: 270px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-img{
+        width: 240px;
+        margin-bottom: 18px;
+    }
+    &-name{
+        margin-bottom: 58px;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: normal;
+        &::after{
+            content: "";
+            width: 40px;
+            height: 1px;
+            background-color: $grey-500;
+        }
+    }
+    &-desc{
+        margin-bottom: 6px;
+    }
+    &-price{
+        margin-bottom: 31px;
+    }
+}

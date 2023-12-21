@@ -1,0 +1,23 @@
+@import "../parts/variable";
+@import "../parts/base";
+@import "../parts/reset";
+
+@import "../layout/header";
+@import "../layout/section-hero";
+@import "../layout/section-quality";
+@import "../layout/section-product";
+.section-product {
+  margin-bottom: 130px;
+}
+@import "../layout/section-news";
+.section-news {
+  margin-bottom: 100px;
+}
+@import "../layout/section-info";
+.section-info {
+  margin-bottom: 250px;
+}
+@import "../layout/section-certificate";
+.section-certificate {
+  margin-bottom: 113px;
+}

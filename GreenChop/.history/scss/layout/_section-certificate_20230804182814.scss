@@ -1,0 +1,23 @@
+.section-certificate {
+  &-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  &-list {
+    max-width: 948px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &-item {
+    display: flex;
+    column-gap: 16px;
+    .certificate-item {
+      &-icon {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+}

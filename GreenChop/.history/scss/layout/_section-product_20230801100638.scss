@@ -1,0 +1,12 @@
+.section-product{
+    &-container{
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    &-list{
+        max-width: 975px;
+        display: grid;
+        grid-template-columns: auto(3,1fr);
+    }
+}

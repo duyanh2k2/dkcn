@@ -1,0 +1,28 @@
+.header {
+  &-top {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 19px auto 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-controller {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
+  &-menu {
+    display: flex;
+    column-gap: 50px;
+  }
+  &-icons {
+    display: flex;
+    column-gap: 50px;
+  }
+  &-cart {
+    &::after {
+      content: "3";
+      color: red;
+    }
+  }
+}

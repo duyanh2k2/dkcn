@@ -1,0 +1,31 @@
+.section-contact {
+  &-container {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 0 118px;
+  }
+  &-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+  }
+  .contact-form {
+    &-field {
+      border: 1px solid $grey-500;
+      padding: 13px;
+      border-radius: 7px;
+    }
+    &-fields {
+      display: flex;
+      column-gap: 18px;
+    }
+    &-btn {
+      width: fit-content;
+      margin-left: auto;
+      padding: 13px;
+    }
+  }
+}

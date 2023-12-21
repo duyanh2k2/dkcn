@@ -1,0 +1,15 @@
+.section-info {
+  &-container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  &-header {
+    max-width: 745px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 50px;
+  }
+}
